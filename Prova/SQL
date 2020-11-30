@@ -1,0 +1,12 @@
+//==========CRIANDO BANCO===========
+CREATE DATABASE ECOMMERCE
+
+//==========CRIANDO TABLE===========
+CREATE TABLE SHIRT {
+  Id int NOT NULL AUTO_INCREMENT, 
+  FirtName varchar(255) NOT NULL, 
+  Category varchar(255), 
+  Color varchar(50), 
+  Vaalue varchar(255), 
+  PRIMARY KEY (Id) 
+};
